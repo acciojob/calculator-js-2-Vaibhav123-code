@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+.container{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+   
+}
+
+
+.input-container {
+    grid-column: 1 / -1; /* Span across all columns */
+    
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
+
+.btns button {
+    width: 100%; /* Make buttons take full width */
+}
